@@ -1,5 +1,8 @@
-/**
- * Challenge: Set up a React app from scratch again.
- * This time, try rendering an unordered list with 2-3 list items inside
- * with why you're excited to be learning React.
- */
+import {createRoot} from "react-dom/Client"
+const list= createRoot(document.getElementById("root"))
+list.render(<ul>
+<li>Hello</li>
+<li>React</li>
+<li>World</li>
+</ul>)
+
